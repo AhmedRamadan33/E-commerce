@@ -715,9 +715,11 @@ a{
 }
 .Cameras .item{
   background-color: #fff;
-  border-right: 1px solid #bdbdbd;
   overflow: hidden;
   height: 410px ;
+}
+.Cameras .owl-carousel.owl-drag .owl-item {
+  border-right: 1px solid #bdbdbd;
 }
 .Cameras .item .text{
  text-align: right;
