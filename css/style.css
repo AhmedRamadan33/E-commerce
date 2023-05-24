@@ -2350,7 +2350,7 @@ z-index: 100;
 transition: 0.2s;
 visibility: hidden;
 }
-#back-top a {
+#back-top span {
 font: 600 14px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
 text-transform: uppercase;
 padding: 0;
@@ -2369,10 +2369,10 @@ display: block;
 box-shadow: 3px 5px 10px 0 rgb(0 0 0 / 30%);
 }
 
-#back-top a i{
+#back-top span i{
 padding-top: 17px;
 }
-#back-top:hover a {
+#back-top:hover span {
 color: #f03723;
 }
 
