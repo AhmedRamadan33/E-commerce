@@ -2277,109 +2277,6 @@ justify-content: center;
   font-size: 1.3rem;
 }
 
-
-
-.test {
-  width: 300px;
-  height: 65vh;
-  background-color: #fff;
-  position: absolute;
-  top: 188px;
-  bottom: 0;
-  left: 0;
-  z-index: 999999999999999;
-  visibility: hidden;
-  padding: 70px 0;
-}
-.test2 {
-visibility: visible;
-}
-
-.test p#myAccount{
-font: 600 18px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
-color: #f03723;
-}
-.test p#email_account{
-font: 500 15px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
-color: #232f3e;
-}
-.test .btn {
-font: 500 15px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
-color: #fff;
-background: #eb3e32;
-border: 1px solid #eb3e32;
-border-radius: 3px;
-padding: 2px 20px;
-text-transform: uppercase;
-transition: all .5s;
--webkit-transition: all .5s;
--moz-transition: all .5s;
--ms-transition: all .5s;
--o-transition: all .5s;
-}
-.test .btn:hover{
-color: #000;
-background: #fdc801;
-border: 1px solid #fdc801;
-}
-.test #btn_Signout{
-display: none;
-}
-.test .icon-account {
-width: 80px;
-height: 80px;
-background: #f03723;
-border-radius: 100%;
-margin: 20px auto;
-text-align: center;
-}
-.test .icon-account::before {
-display: inline-block;
-font: normal normal 30px/1 FontAwesome;
-vertical-align: middle;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-content: "\f007";
-color: #ffffff;
-line-height: 75px;
-}
-
-#back-top {
-left: 15px;
-position: fixed;
-bottom: 15px;
-z-index: 100;
-transition: 0.2s;
-visibility: hidden;
-}
-#back-top span {
-font: 600 14px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
-text-transform: uppercase;
-padding: 0;
-width: 50px;
-height: 50px;
-line-height: 46px;
-border: 1px solid;
-text-align: center;
-border-radius: 100%;
-transition: all 500ms ease;
-backface-visibility: hidden;
-color: #000;
-border-color: transparent;
-background: transparent;
-display: block;
-box-shadow: 3px 5px 10px 0 rgb(0 0 0 / 30%);
-}
-
-#back-top span i{
-padding-top: 17px;
-}
-#back-top:hover span {
-color: #f03723;
-}
-
-
-
 @media screen and (max-width: 768px) {
   .footer .bottom-links li {
     padding: 0px 6px;
@@ -2565,11 +2462,16 @@ color: #f03723;
   .blog .widget {
     width: 100%;
   }
+  .cell_phones .item .text span {
+    right: unset;
+    left: 10px;
+    bottom: 35px !important;
+  }
+  .Cameras .item .text span {
+    right: 25px !important;
+    bottom: 10px !important;
+   }
 }
-
-
-
-
 
 
 
@@ -2725,5 +2627,113 @@ color: #f03723;
     left: 20px;
     top: 15px;
   }
+  .cell_phones .item .text span {
+    bottom: 0px;
+  }
+  .Cameras .item .text span {
+    right: unset;
+    left: 20px;
+    bottom: 45px ; 
+   }
 }
 
+
+ .test {
+    width: 300px;
+    height: 65vh;
+    background-color: #fff;
+    position: absolute;
+    top: 188px;
+    bottom: 0;
+    left: 0;
+    z-index: 999999999999999;
+    visibility: hidden;
+    padding: 70px 0;
+}
+ .test2 {
+  visibility: visible;
+ }
+
+ .test p#myAccount{
+  font: 600 18px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
+  color: #f03723;
+ }
+ .test p#email_account{
+  font: 500 15px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
+  color: #232f3e;
+ }
+.test .btn {
+  font: 500 15px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
+  color: #fff;
+  background: #eb3e32;
+  border: 1px solid #eb3e32;
+  border-radius: 3px;
+  padding: 2px 20px;
+  text-transform: uppercase;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
+.test .btn:hover{
+  color: #000;
+  background: #fdc801;
+  border: 1px solid #fdc801;
+}
+.test #btn_Signout{
+  display: none;
+}
+.test .icon-account {
+  width: 80px;
+  height: 80px;
+  background: #f03723;
+  border-radius: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+.test .icon-account::before {
+  display: inline-block;
+  font: normal normal 30px/1 FontAwesome;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f007";
+  color: #ffffff;
+  line-height: 75px;
+}
+
+#back-top {
+  left: 15px;
+  position: fixed;
+  bottom: 15px;
+  z-index: 100;
+  transition: 0.2s;
+  visibility: hidden;
+}
+#back-top span {
+  font: 600 14px/1.35 Roboto Condensed, Helvetica Neue, Verdana, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 100%;
+  transition: all 500ms ease;
+  backface-visibility: hidden;
+  color: #000;
+  border-color: transparent;
+  background: transparent;
+  display: block;
+  box-shadow: 3px 5px 10px 0 rgb(0 0 0 / 30%);
+}
+
+#back-top span i{
+  padding-top: 17px;
+}
+#back-top:hover span {
+  color: #f03723;
+}
+ 
